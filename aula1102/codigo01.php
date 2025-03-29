@@ -1,2 +1,2 @@
 <?php
-    echo "Olá turma de novo!!       :-("
+    echo "Olá turma de novo!!       :-(";
