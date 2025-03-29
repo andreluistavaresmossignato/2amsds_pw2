@@ -17,10 +17,10 @@
         }
     }
 
-    if ($foiEncontrado == false) {
+    if($foiEncontrado == false) {
         echo "O número $m não foi encontrado no vetor" . "\n";
     }
 
-    if ($negativo == true) {
+    if($negativo == true) {
         echo "Número negativo encontrado. Encerrando o programa" . "\n";
     }
