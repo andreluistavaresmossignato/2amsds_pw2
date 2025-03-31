@@ -7,12 +7,12 @@
     $foiEncontrado = false;
 
     for ($i = 0; $i < 10; $i++) { 
-        if ($vetor[$i] == $m) {
+        if($vetor[$i] == $m) {
             echo "Foi encontrado o $m na posição $i do vetor" . "\n";
             $foiEncontrado = true;
         }
 
-        if ($vetor[$i] < 0) {
+        if($vetor[$i] < 0) {
             $negativo = true;
         }
     }
