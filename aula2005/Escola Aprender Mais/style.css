@@ -1,0 +1,64 @@
+/*
+#5A9367 - claro
+#44633F - escuro
+#52FFEE - ciano
+#DCFFFD - clarinho
+#0B3C49 - escuro azul
+#F17105 - laranja
+#FFBA49 - amarelo 
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imagens/windows\ xp.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 98vw;
+    height: 96.9vh;
+    color: #DCFFFD;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+div#telaResultado {
+    background-color: rgba(0, 0, 0, 0.489);
+    color:#FFBA49;
+    padding: 20px;
+    max-width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+span.situ {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+span#nome {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.butão{
+    background-color: #F5CCE8;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.butão:hover, .butão::after {
+    background-color: #f5abde;
+}
+
+.formu{
+    background-color:#F1BB87;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px;
+}
